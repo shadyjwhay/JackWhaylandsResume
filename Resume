@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Whayland - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #0073e6;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #005bb5;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .contact a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #f4f4f4;
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jack Whayland</h1>
+        <p>Media Producer | Project Manager | Creative Enthusiast</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I’m Jack, originally from Madison, Wisconsin. I’m an enthusiastic learner with a solid background in project management, media production, and communication. Experienced in leading teams, coordinating projects, and delivering high-quality results, I am skilled in Adobe InDesign, photography, and graphic design. I’m eager to contribute to an innovative organization by leveraging my diverse skill set and passion for growth and creativity.</p>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>Shift Lead, Yolas Cafe</strong> <em>(Feb 2019 - Dec 2024)</em>
+                    <ul>
+                        <li>Took on versatile roles (barista, cook, shift lead) to streamline operations and boost efficiency.</li>
+                        <li>Strengthened team collaboration and customer satisfaction, driving increased positive feedback.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Manager, University of Oregon Coffee Outlets</strong> <em>(Sep 2022 - Sep 2023)</em>
+                    <ul>
+                        <li>Managed multiple campus coffee shops, enhancing customer service and people management skills.</li>
+                        <li>Coordinated operations and implemented training programs, fostering a collaborative team environment.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Editor in Chief | Director, J Project Media</strong> <em>(May 2023 - Present)</em>
+                    <ul>
+                        <li>Lead creative direction and manage diverse teams of writers, photographers, and graphic designers.</li>
+                        <li>Oversee the production process from planning to design, delivering high-quality results.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Art Director, Photographer, Graphic Designer, Align Magazine</strong> <em>(Sep 2022 - Jun 2023)</em>
+                    <ul>
+                        <li>Collaborated with a team to create cohesive 5-page features, ensuring thematic and narrative consistency.</li>
+                        <li>Utilized Adobe InDesign and Adobe Suites for high-quality production.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>University of Oregon</strong> <em>(2024 - 2025)</em>
+                    <ul>
+                        <li>Certification in Project Management covering Agile, Waterfall, and Hybrid methodologies.</li>
+                        <li>Earned Jira certification and developed leadership skills in stakeholder management.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>University of Oregon</strong> <em>(2020 - 2023)</em>
+                    <ul>
+                        <li>Bachelor's Degree in Communication and Media Studies, focusing on media theory, production, and business.</li>
+                        <li>Explored environmentalism and its relationship with media.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Adobe Creative Suite</li>
+                <li>Project Management</li>
+                <li>Leadership</li>
+                <li>Time Management</li>
+                <li>Customer Service</li>
+                <li>Media Literacy</li>
+                <li>Agile Methodologies</li>
+                <li>Teamwork</li>
+                <li>Communication</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:jwhayz@gmail.com">jwhayz@gmail.com</a></p>
+            <p>Phone: <a href="tel:+16083958600">608-395-8600</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/jack-whayland-08a3a01b1" target="_blank">linkedin.com/in/jack-whayland-08a3a01b1</a></p>
+            <p>Portfolio: <a href="https://jwhayz.myportfolio.com" target="_blank">jwhayz.myportfolio.com</a></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Jack Whayland</p>
+    </footer>
+</body>
+</html>
